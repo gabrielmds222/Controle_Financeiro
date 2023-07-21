@@ -5,6 +5,13 @@ export interface TransacaoProps {
   categoria: string;
 }
 
+export interface TransacaoDataProps {
+  data: TransacaoProps;
+  entrada: number;
+  saida: number;
+  total: number;
+}
+
 export interface CardProps {
   title: string;
   Icon: React.FC;
