@@ -1,5 +1,6 @@
 "use client";
 import HistoryCards from "@/components/HistoryCards";
+import Register from "@/components/Register";
 import {
   ArrowCircleUp,
   ArrowCircleDown,
@@ -31,10 +32,8 @@ export default function Home() {
       </section>
 
       {/* Conteúdo principal */}
-      <div className="flex-grow flex justify-center items-center">
-        <h1 className="text-4xl font-bold text-center text-black">
-          Opa meu querido
-        </h1>
+      <div className="flex-grow flex justify-center items-top p-10">
+        <Register />
       </div>
     </div>
   );
