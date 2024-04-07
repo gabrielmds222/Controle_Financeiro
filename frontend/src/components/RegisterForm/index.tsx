@@ -1,15 +1,15 @@
 function RegisterForm() {
   return (
-    <div className="text-black p-6 flex justify-between">
+    <div className="text-black p-6 mb-5 flex justify-between items-center">
       {" "}
       <div className="flex items-center">
         <div className="flex flex-col">
-          <label htmlFor="titulo" className="text-gray-700 font-bold mb-2">
-            Título:
+          <label htmlFor="descricao" className="text-gray-700 font-bold mb-2">
+            Descrição:
           </label>
           <input
             type="text"
-            id="titulo"
+            id="descricao"
             className="mr-4 rounded border-2 border-gray-300"
           />
         </div>

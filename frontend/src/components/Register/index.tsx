@@ -13,17 +13,15 @@ function Register() {
           <thead className="ltr:text-left rtl:text-right">
             <tr>
               <th className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
-                Name
+                Descrição
               </th>
               <th className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
-                Date of Birth
+                Valor
               </th>
               <th className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
-                Role
+                Tipo
               </th>
-              <th className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
-                Salary
-              </th>
+              <th className="px-4 py-2"></th>
               <th className="px-4 py-2"></th>
             </tr>
           </thead>
